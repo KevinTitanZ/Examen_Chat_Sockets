@@ -13,18 +13,22 @@
 ### __Paso 1: Backend__
 
 Se utilizo Node.js con Express
+
 ![grafico1](https://i.imgur.com/NiSprT8.png)
 
 ### __Paso 2: Base de Datos Mongo__
 
 
 _Base de datos con sus colletions_
+
 ![grafico1](https://i.imgur.com/27rct31.png)
 
 _Se guardan los Usuarios_
+
 ![grafico1](https://i.imgur.com/dovFJYJ.png)
 
 _Se guardan los chats de los Usuarios_
+
 ![grafico1](hhttps://i.imgur.com/99VkJZX.png)
 
 
@@ -33,12 +37,14 @@ _Se guardan los chats de los Usuarios_
 ### __Paso 3: Web Sockets y Autenticación__
 
 _Autentica usuarios con JWT, gestiona conexiones WebSocket, transmite mensajes y cuenta usuarios conectados en tiempo real._
+
 ![grafico1](https://i.imgur.com/f92Q4xI.png)
 
 ![grafico1](https://i.imgur.com/QZ6K16j.png)
 
 
 ### __Paso 4: Arquitectura__
+
 ![grafico1](https://i.imgur.com/nafIODF.png)
 
 
