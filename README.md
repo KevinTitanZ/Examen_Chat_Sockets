@@ -29,7 +29,7 @@ _Se guardan los Usuarios_
 
 _Se guardan los chats de los Usuarios_
 
-![grafico1](hhttps://i.imgur.com/99VkJZX.png)
+![grafico1](https://i.imgur.com/99VkJZX.png)
 
 
 
