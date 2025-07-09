@@ -11,8 +11,8 @@
 
 ---
 ### __Paso 1: Backend__
-Se utilizo Node.js con Express
 
+Se utilizo Node.js con Express
 ![grafico1](https://i.imgur.com/NiSprT8.png)
 
 ### __Paso 2: Base de Datos Mongo__
@@ -40,3 +40,18 @@ _Autentica usuarios con JWT, gestiona conexiones WebSocket, transmite mensajes y
 
 ### __Paso 4: Arquitectura__
 ![grafico1](https://i.imgur.com/nafIODF.png)
+
+
+### __Paso 5: Prueba Final__
+
+![grafico1](https://i.imgur.com/hB9CuAm.png)
+
+
+
+![grafico1](https://i.imgur.com/FxcMQr7.png)
+
+
+
+
+![grafico1](https://i.imgur.com/nPMzGie.png)
+
