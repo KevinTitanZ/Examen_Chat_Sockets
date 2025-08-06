@@ -12,52 +12,23 @@
 ---
 ### __Paso 1: Backend__
 
-Se utilizo Node.js con Express
+Tenemos el boton de registar Google
 
-![grafico1](https://i.imgur.com/NiSprT8.png)
+![grafico1](https://i.imgur.com/PNU0e38.png)
 
-### __Paso 2: Base de Datos Mongo__
+### __Paso 2: Ingreso a Cuentas de Google__
 
+_Mis cuentas de google_
 
-_Base de datos con sus colletions_
+![grafico1](https://i.imgur.com/Gqbu2Gw.png)
 
-![grafico1](https://i.imgur.com/27rct31.png)
+_Se ingresa el chat en tiempo real_
 
-_Se guardan los Usuarios_
+![grafico1](https://i.imgur.com/IXJWUJM.png)
 
-![grafico1](https://i.imgur.com/dovFJYJ.png)
+_Usuarios registrados mediante Google al Chat_
 
-_Se guardan los chats de los Usuarios_
-
-![grafico1](https://i.imgur.com/99VkJZX.png)
-
+![grafico1](https://i.imgur.com/KJg2F3h.png)
 
 
-
-### __Paso 3: Web Sockets y Autenticación__
-
-_Autentica usuarios con JWT, gestiona conexiones WebSocket, transmite mensajes y cuenta usuarios conectados en tiempo real._
-
-![grafico1](https://i.imgur.com/f92Q4xI.png)
-
-![grafico1](https://i.imgur.com/QZ6K16j.png)
-
-
-### __Paso 4: Arquitectura__
-
-![grafico1](https://i.imgur.com/nafIODF.png)
-
-
-### __Paso 5: Prueba Final__
-
-![grafico1](https://i.imgur.com/hB9CuAm.png)
-
-
-
-![grafico1](https://i.imgur.com/FxcMQr7.png)
-
-
-
-
-![grafico1](https://i.imgur.com/nPMzGie.png)
 

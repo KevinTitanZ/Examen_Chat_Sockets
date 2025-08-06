@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Procesando login...</title>
+</head>
+<body>
+  <script>
+    // Extrae el token de la URL
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get('token');
+    if (token) {
+      localStorage.setItem('token', token);
+      // Redirige al chat o a donde quieras
+      window.location.href = '/frontend/chat.html';
+    } else {
+      document.body.innerHTML = '<h2>Error al iniciar sesión con Google</h2>';
+    }
+  </script>
+</body>
+</html>

@@ -395,9 +395,28 @@
   <div class="connection-status" id="connectionStatus">
     Conectando...
   </div>
+<script>
+  // Capturar el token desde la URL (si viene)
+  const urlParams = new URLSearchParams(window.location.search);
+  const tokenFromGoogle = urlParams.get('token');
+
+  if (tokenFromGoogle) {
+    localStorage.setItem('token', tokenFromGoogle);
+
+    // Limpia la URL para que no se vea el token en la barra del navegador
+    const cleanUrl = window.location.origin + window.location.pathname;
+    window.history.replaceState({}, document.title, cleanUrl);
+  }
+
+  // Verifica si el token está en localStorage, si no, redirige al login
+  const token = localStorage.getItem('token');
+  if (!token) {
+    alert('No tienes sesión activa');
+    window.location.href = 'login.html';
+  }
+</script>
 
   <script>
-    const token = localStorage.getItem('token');
     if (!token) {
       alert('No tienes sesión activa');
       window.location.href = 'login.html';
@@ -609,5 +628,6 @@
       scrollToBottom();
     });
   </script>
+
 </body>
 </html>
