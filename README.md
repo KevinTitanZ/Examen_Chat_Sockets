@@ -12,7 +12,11 @@
 ---
 ### __Paso 1: Backend__
 
-Tenemos el boton de registar Google
+_Google Cloud, nos registramos_
+![grafico1](https://i.imgur.com/6Bg3Ymb.png)
+
+
+_Tenemos el boton de registar Google_
 
 ![grafico1](https://i.imgur.com/PNU0e38.png)
 
