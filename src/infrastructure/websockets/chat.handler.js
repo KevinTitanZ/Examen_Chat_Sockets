@@ -49,7 +49,10 @@ const chatHandler = (io) => {
         console.error('❌ Error al guardar mensaje:', err.message);
       }
     });
-
+socket.emit('userInfo', {
+  id: socket.user._id.toString(),
+  email: socket.user.email,
+});
     // Desconexión de cliente
     socket.on('disconnect', () => {
       connectedUsers.delete(socket.user._id.toString());

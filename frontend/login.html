@@ -203,6 +203,36 @@
         transform: translateY(0);
       }
     }
+
+    .google-btn {
+  display: inline-flex;
+  margin: 5px;
+  margin-left: 35px;
+  align-items: center;
+  background-color: #ffffff;
+  color: #444;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.google-btn:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+.google-btn img {
+  height: 20px;
+  margin-right: 10px;
+  
+}
+
   </style>
 </head>
 <body>
@@ -230,9 +260,11 @@
         Ingresar
       </button>
     </form>
-<a href="http://localhost:3000/auth/google">
-  <button type="button">Iniciar sesión con Google</button>
+<a href="http://localhost:3000/auth/google" class="google-btn">
+  <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo">
+  Iniciar sesión con Google
 </a>
+
 
     <p class="register-link">
       ¿No tienes una cuenta? <a href="register.html">Regístrate aquí</a>
