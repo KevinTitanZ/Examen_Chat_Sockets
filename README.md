@@ -1,38 +1,10 @@
-
----
-### __Paso 1: Backend__
-
-
-
-
-_Tenemos el boton de registar Google_
-
-![grafico1](https://i.imgur.com/PNU0e38.png)
-
-### __Paso 2: Ingreso a Cuentas de Google__
-
-_Mis cuentas de google_
-
-![grafico1](https://i.imgur.com/Gqbu2Gw.png)
-
-_Se ingresa el chat en tiempo real_
-
-![grafico1](https://i.imgur.com/IXJWUJM.png)
-
-_Usuarios registrados mediante Google al Chat_
-
-![grafico1](https://i.imgur.com/KJg2F3h.png)
-
-
-
-
 #  Chat en Tiempo Real con Sockets Laboratorio 
 
 **Estudiante:** _Ordoñez Cabrera Kevin Lenin_ 
 
 **Docente:**  _Ing. Paulo Galarza_
 
-**Fecha de entrega:** _09/07/2025_ 
+**Fecha de entrega:** _06/08/2025_ 
 
 **Carrera/Curso:**  _Ingeniería en Tecnologías de la Información / Aplicaciones Distribuidas_
 
@@ -108,21 +80,28 @@ _Flujo de autenticación con Google._
 
 ![grafico1](https://i.imgur.com/6Bg3Ymb.png)
 
+
+![grafico1](https://i.imgur.com/8gb0ZXJ.png)
+
+
+
+
 _Consola mostrando conexión de usuarios._
 
-![grafico1](https://i.imgur.com/6Bg3Ymb.png)
+![grafico1](https://i.imgur.com/qbuecdU.png)
 
-_Interfaz del chat con mensajes enviados._
+**_Interfaz del chat con mensajes enviados._**
 
-![grafico1](https://i.imgur.com/6Bg3Ymb.png)
+_Chat de skvozmediano@espe.edu.ec_
+![grafico1](https://i.imgur.com/pEyjWMY.png)
 
-_Visualización del correo del usuario en tiempo real._
+_Chat de klordonez1@espe.edu.ec_
+![grafico1](https://i.imgur.com/TzHA1nU.png)
 
-![grafico1](https://i.imgur.com/6Bg3Ymb.png)
 
 _Múltiples usuarios conectados simultáneamente._
 
-![grafico1](https://i.imgur.com/6Bg3Ymb.png)
+![grafico1](https://i.imgur.com/273pioC.png)
 
 
 ### __DISCUSIÓN__
